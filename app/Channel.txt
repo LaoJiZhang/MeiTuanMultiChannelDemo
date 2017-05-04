@@ -1,0 +1,9 @@
+tencent
+baidu
+qihu360
+wandoujia
+huawei
+xiaomi
+googleplay
+official
+update
