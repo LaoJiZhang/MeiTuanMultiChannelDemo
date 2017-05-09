@@ -1,4 +1,8 @@
-def startTime = System.nanoTime()
+//Walle Cli
+//GitHub地址： https://github.com/Meituan-Dianping/walle
+//GitHub地址： https://github.com/Meituan-Dianping/walle/blob/master/walle-cli/README.md
+
+def startTime = System.currentTimeMillis()
 def channelFileName = "Channel.txt"
 
 /**
@@ -29,4 +33,4 @@ originApks.each { file ->
         print "${process.text}"
     }
 }
-println System.nanoTime() - startTime
+println "耗费时长：" + (System.currentTimeMillis() - startTime)
